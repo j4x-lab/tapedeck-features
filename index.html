@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAPEDECK — Features Overview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; background: #07070A; color: #F4EFE4; min-height: 100vh; padding: 40px 20px; }
+    .max-w { max-width: 800px; margin: 0 auto; }
+    h1 { font-size: 2.5rem; margin-bottom: 20px; }
+    h2 { font-size: 1.5rem; margin: 40px 0 20px; color: #E8A33D; }
+    .feature { margin: 30px 0; padding: 20px; background: #111015; border-radius: 10px; margin-bottom: 40px; }
+    .feature h3 { margin-bottom: 10px; color: #F4EFE4; }
+    .feature p { color: #A9A29A; margin-bottom: 10px; }
+    .badge { display: inline-block; padding: 2px 8px; background: #E8A33D; color: #07070A; font-size: 0.8rem; margin-right: 6px; margin-bottom: 6px; border-radius: 3px; }
+    .cta { background: #E8A33D; color: #07070A; padding: 16px 32px; text-decoration: none; font-weight: bold; border-radius: 4px; margin-top: 30px; display: inline-block; }
+    .contact { margin-top: 40px; padding-top: 40px; border-top: 1px solid #3A3A42; }
+    .footer { margin-top: 40px; font-size: 0.9rem; color: #6B665F; }
+  </style>
+</head>
+<body>
+  <div class="max-w">
+    <h1>TAPEDECK</h1>
+    <p style="color:#6B665F; margin-bottom:40px;">Your home screen is a turntable. Your apps are a crate of tapes.</p>
+
+    <section class="feature">
+      <h2><span class="badge">Turntable Stage</span> Vinyl Interface</h2>
+      <p>Play/pause, scratch, and browse with tactile vinyl turntable gestures. Record spins only when music plays. Empty state shows "NO SIGNAL" when no session.</p>
+    </section>
+
+    <section class="feature">
+      <h2><span class="badge">Crate Browser</span> App Organization</h2>
+      <p>Manual and smart crates (recent, music, comms, dev, games). Drag to reorder, fling to shuffle. Cards show app identity — no fake previews.</p>
+    </section>
+
+    <section class="feature">
+      <h2><span class="badge">Quick TTY</span> Terminal Drawer</h2>
+      <p>Swipe down from the deck for a compact terminal without leaving. Full-screen TUIs, packages and colours work via Termux loopback SSH.</p>
+    </section>
+
+    <section class="feature">
+      <h2><span class="badge">Now Playing</span> Music Hero</h2>
+      <p>Your current track is the focal point. Notification-listener metadata for Spotify, YouTube Music. Transport controls: prev, play, next, repeat.</p>
+    </section>
+
+    <section class="feature">
+      <h2><span class="badge">Local-Only</span> Privacy First</h2>
+      <p>No accounts, no cloud, no telemetry. Terminal traffic is loopback SSH to Termux on the same device only.</p>
+    </section>
+
+    <a href="https://github.com/j4x-lab/vinyl-deck" class="cta">Contact the Author for Access</a>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>This is a personal Android launcher project. By using, cloning, or forking, please contact the author first.</p>
+      <ul>
+        <li><strong>GitHub:</strong> <a href="https://github.com/j4x-lab/vinyl-deck">j4x-lab/vinyl-deck</a></li>
+        <li><strong>F-Droid:</strong> <a href="https://f-droid.org/en/packages/com.tapedeck/">com.tapedeck</a></li>
+        <li>Commercial use or redistribution requires explicit permission from the author.</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p>TAPEDECK v0.2.7 · Android 8.0+ (API 26) · Dark-only · Launcher replacement</p>
+    </div>
+  </div>
+</body>
+</html>
